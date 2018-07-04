@@ -1,0 +1,20 @@
+Créer les pages suivantes : 
+	index.php
+	contact.php
+	detail.php
+	faq.php
+
+Chaque page doit contenir : 
+	Un lien vers le fichier .css externe
+	Un lien vers jQuery juste avant la fermeture du body
+	Dans le head : 
+		un <title>
+		une meta viewport
+		une meta description
+	Les balises suivantes : 
+		header
+			avec un logo de cinéma
+		main
+			avec du lorem ipsum
+		footer
+			avec l'année actuelle

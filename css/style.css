@@ -1,0 +1,35 @@
+.footer {
+    background-color: lightsteelblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 40px;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+.hoverposter {
+    transition: all .2s ease-in-out;
+}
+
+.hoverposter:hover {
+    transform: scale(1.5);
+}
+
+.imgCover {
+    background: url("../img/popcorn.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gradientPrimary {
+    /* background: linear-gradient(white, #00d1b2); */
+}
